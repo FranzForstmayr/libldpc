@@ -53,10 +53,17 @@ dkms.conf
 
 # Qt
 *.pro.user
-.vscode/*
 codes/*
 
+# Editor
+.vscode/*
+
+# CMake
 CMakeFiles/*
 *.cmake
 CMakeCache*
 Testing/*
+Makefile
+
+# Python
+*.pyc
